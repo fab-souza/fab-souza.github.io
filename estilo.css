@@ -1,5 +1,35 @@
+* {
+    margin: 0;
+    padding: 10; /*É uma borda interna, como um espaço para dentro */
+    box-sizing: border-box; /*Começa a contar o tamanho do elemento a partir da borda interna da caixa*/
+}
+
 body {
-  background-image: url('https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1224500457?k=20&m=1224500457&s=612x612&w=0&h=LpjdY6okVWiKh8LT_LqcXz53kWaXVf47ThXKwMcCoHI=');
-  background-size: contain;
-  /*backdrop-filter: blur(5px); Comando que deixa o fundo esfumasado quando a imagem vem do CSS*/
+    background-repeat: no-repeat;
+    background-image: url('https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1224500457?k=20&m=1224500457&s=612x612&w=0&h=LpjdY6okVWiKh8LT_LqcXz53kWaXVf47ThXKwMcCoHI=');
+    background-size: cover;
+    background-position: right top;
+    background-attachment: fixed;
+    /*backdrop-filter: blur(5px); Comando que deixa o fundo esfumasado quando a imagem vem do CSS*/
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    font-size: 12px;
+}
+
+header {
+    height: 20vh; /*VALORvh deixa o elemento com VALOR% do tamanho da tela... eu acho...*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7e68f7;
+    margin: 5em;
+    /*border: 1px solid black;*/
+    padding: 0px;
+    box-shadow: 0px 0px 25px 8px;
+}
+
+.site-title {
+    color: rgb(0, 0, 0);
+    font-size: 4em;
+    text-align: center;
 }
