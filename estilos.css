@@ -34,26 +34,20 @@ header {
     text-align: center;
 }
 
-.principal {
-    grid-row: 2 / 3;
-    margin: 3em;
-    padding: 2.5em;
-    display: grid;
-    grid-gap: .2rem;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 33.33% 33.33% 33.33%;
-    height: calc(100vh - 150px);
+.destaque__principal {
+    max-width: 90%;
+    margin: 5em;
+    justify-content: center;
     background-color: #7e68f7;
 }
 
-.destaques__principal {
-    
-}
+
 
 .titulo__principal {
     /*background: rgba(0, 0, 0, .5);*/
     color: #030303;
     padding: .6rem;
     text-align: center;
+    text-size-adjust: 0.2em;
     width: 100%;
 }
