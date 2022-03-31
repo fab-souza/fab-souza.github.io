@@ -42,12 +42,20 @@ header {
 }
 
 
-
 .titulo__principal {
     /*background: rgba(0, 0, 0, .5);*/
     color: #030303;
-    padding: .6rem;
+    padding: 2.6rem;
     text-align: center;
-    text-size-adjust: 0.2em;
+    font-size: 3em;
     width: 100%;
+}
+
+.obras {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    
 }
