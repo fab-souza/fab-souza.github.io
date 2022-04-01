@@ -59,3 +59,10 @@ header {
     margin: auto;
     
 }
+
+.conteudo {
+    padding: 2.6rem;
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+}
