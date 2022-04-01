@@ -65,3 +65,11 @@ header {
     font-size: 2em;
     width: 100%;
 }
+
+.breve {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    display: center;
+    margin: 1em; 
+}
