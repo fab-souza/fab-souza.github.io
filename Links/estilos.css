@@ -75,13 +75,16 @@ header {
 }
 
 .helloc {
+    display: center;
     max-width: 90%;
     height: auto;
     border-radius: 8px;
-    display: center;
-    margin: 1.5em;
+    margin: 2em;
 }
 
-.texto {
+p {
     margin: 1em;
+    padding: 0.5em;
+    text-align: justify;
+    font-size: 1.75em;
 }
