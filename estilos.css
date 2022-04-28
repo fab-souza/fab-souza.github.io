@@ -10,7 +10,6 @@ body {
     background-size: cover;
     background-position: right top;
     background-attachment: fixed;
-    /*backdrop-filter: blur(5px); Comando que deixa o fundo esfumasado quando a imagem vem do CSS*/
     font-family: 'Open Sans', sans-serif;
     width: 100vw;
     font-size: 12px;
@@ -39,6 +38,7 @@ header {
     margin: 5em;
     justify-content: center;
     background-color: #7e68f7;
+    box-shadow: 0px 0px 25px 8px;
 }
 
 
@@ -66,12 +66,21 @@ header {
     width: 100%;
 }
 
+.conteudo a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .breve {
     max-width: 90%;
     height: auto;
     border-radius: 8px;
     display: center;
     margin: 1em; 
+}
+
+img .helloc {
+    border-radius: 8px;
 }
 
 .helloc {
