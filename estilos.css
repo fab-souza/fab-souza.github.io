@@ -68,6 +68,7 @@ header {
 
 .conteudo a {
     text-decoration: none;
+    color: black;
     cursor: pointer;
 }
 
